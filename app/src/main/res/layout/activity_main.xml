@@ -15,7 +15,7 @@
         android:layout_height="56dp"
         android:background="@color/colorPrimary"
         android:elevation="3dip"
-        app:navigationIcon="@drawable/ic_menu_black_36dp"
+        app:navigationIcon="@drawable/ic_menu_black_24dp"
         app:title="微博"
         app:titleTextColor="@android:color/black">
 
