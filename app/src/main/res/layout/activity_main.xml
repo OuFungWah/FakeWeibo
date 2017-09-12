@@ -15,9 +15,8 @@
         android:layout_height="56dp"
         android:background="@color/colorPrimary"
         android:elevation="3dip"
-        android:title="FakeWeibo"
         app:navigationIcon="@drawable/ic_menu_black_36dp"
-        app:title="FakeWeibo"
+        app:title="微博"
         app:titleTextColor="@android:color/black">
 
     </android.support.v7.widget.Toolbar>
@@ -37,6 +36,9 @@
 
                 <ListView
                     android:id="@+id/list_view"
+                    android:divider="@color/colorPrimaryDark"
+                    android:headerDividersEnabled="true"
+                    android:footerDividersEnabled="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:dividerHeight="10dp" />

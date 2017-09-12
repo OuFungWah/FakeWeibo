@@ -9,6 +9,7 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.example.fakeweibo.dao.BaseDao;
@@ -73,6 +74,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
     protected void setView() {
         toolbar.inflateMenu(R.menu.main_menu);
         listView.setAdapter(adapter);
+        View view = new View(this);
+        view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 15));
+        listView.addHeaderView(view);
+        listView.addFooterView(view);
     }
 
     @Override

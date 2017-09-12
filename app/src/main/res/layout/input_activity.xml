@@ -12,7 +12,7 @@
         android:layout_height="56dp"
         android:background="@color/colorPrimary"
         app:navigationIcon="@drawable/close"
-        app:title="Commit"
+        app:title="新建"
         app:titleTextColor="@android:color/black">
 
         <RelativeLayout
